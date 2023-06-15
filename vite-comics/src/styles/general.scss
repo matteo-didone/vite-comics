@@ -1,2 +1,15 @@
-@import '/Users/matteodidone/VS Code Projects/vite-comics/vite-comics/src/styles/partials/_mixins.scss';
-@import '/Users/matteodidone/VS Code Projects/vite-comics/vite-comics/src/styles/partials/_variables.scss';
+@use '/Users/matteodidone/VS Code Projects/vite-comics/vite-comics/src/styles/partials/_mixins.scss';
+@use '/Users/matteodidone/VS Code Projects/vite-comics/vite-comics/src/styles/partials/_variables.scss' as *;
+
+// Resetting of the browser default styles
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Tanseek Modern Pro';
+    src: url('vite-comics/src/styles/font/Tanseek Modern Pro Arabic Book.ttf');
+}
+
