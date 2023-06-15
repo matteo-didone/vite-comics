@@ -54,7 +54,7 @@
         height: 150px;
 
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;        
     }
 
@@ -65,7 +65,7 @@
         align-items: center;
         color: white;
 
-        padding-left: 360px;
+        padding-left: 70px;
     }
 
     .blue-line ul li {
