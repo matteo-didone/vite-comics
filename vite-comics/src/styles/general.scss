@@ -1,5 +1,5 @@
 // Scoped styles
-@use '/Users/matteodidone/VS Code Projects/vite-comics/vite-comics/src/styles/partials/_mixins.scss';
+@use '/Users/matteodidone/VS Code Projects/vite-comics/vite-comics/src/styles/partials/_mixins.scss' as *; 
 @use '/Users/matteodidone/VS Code Projects/vite-comics/vite-comics/src/styles/partials/_variables.scss' as *;
 
 // Importing the fonts
@@ -11,6 +11,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'TanseekModernProArabic-Book';
+}
+
+ul{
+    list-style-type: none;
 }
 
 @font-face {
@@ -26,3 +30,4 @@
 .m-auto{
     margin: auto;
 }
+
