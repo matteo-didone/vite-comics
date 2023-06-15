@@ -1,15 +1,15 @@
+// Scoped styles
 @use '/Users/matteodidone/VS Code Projects/vite-comics/vite-comics/src/styles/partials/_mixins.scss';
 @use '/Users/matteodidone/VS Code Projects/vite-comics/vite-comics/src/styles/partials/_variables.scss' as *;
+
+// Importing the fonts
+@import url(//db.onlinewebfonts.com/c/d602bf6498a65d9595ca30c04eadda32?family=TanseekModernProArabic-Book);
 
 // Resetting of the browser default styles
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-@font-face {
-    font-family: 'Tanseek Modern Pro';
-    src: url('vite-comics/src/styles/font/Tanseek Modern Pro Arabic Book.ttf');
+    font-family: '';
 }
 
