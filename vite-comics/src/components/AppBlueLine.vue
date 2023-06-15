@@ -1,6 +1,5 @@
 <template>
     <div>
-        <h1> App Blue Line </h1>
     </div>
 </template>
 
