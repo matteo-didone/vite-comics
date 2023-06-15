@@ -54,7 +54,7 @@
         height: 150px;
 
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;        
     }
 
@@ -63,6 +63,9 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        color: white;
+
+        padding-left: 360px;
     }
 
     .blue-line ul li {
@@ -70,12 +73,13 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 0 20px;
+        padding: 0 50px;
     }
 
     .blue-line ul li img {
-        width: 40%;
-        height: 40%;
+        width: 50px;
+        height: 55px;
+        margin-right: 10px;
     }
 
 </style>
