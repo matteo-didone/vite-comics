@@ -74,7 +74,7 @@ export default {
 
 header {
 
-    height: 150px;
+    height: 130px;
     display: flex;
     align-items: center;
     justify-content: space-between;
