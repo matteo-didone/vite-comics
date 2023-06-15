@@ -3,6 +3,34 @@
 
         <div class="footer-top">
 
+            <div class="footer-top-left">
+
+                <div class="first-column">
+
+                    <div class="dc-comics">
+
+                    </div>
+
+                    <div class="shop">
+
+                    </div>
+
+                </div>
+
+                <div class="second-column">
+
+                </div>
+
+                <div class="third-column">
+
+                </div>
+
+            </div>
+
+            <div class="footer-top-right">
+                
+            </div>
+
         </div>
 
         <div class="footer-bottom">
