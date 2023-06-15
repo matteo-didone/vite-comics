@@ -53,14 +53,14 @@
 </template>
 
 <script>
-    export default {
-        name: 'AppHeader',
-        data() {
-            return {
+export default {
+    name: 'AppHeader',
+    data() {
+        return {
 
-            }
-        },
-    }
+        }
+    },
+}
 </script>
 
 <script setup>
@@ -69,42 +69,42 @@
 
 <style lang="scss" scoped>
 // Scoped styles
-    @use '/Users/matteodidone/VS Code Projects/vite-comics/vite-comics/src/styles/partials/_mixins.scss' as *; 
-    @use '/Users/matteodidone/VS Code Projects/vite-comics/vite-comics/src/styles/partials/_variables.scss' as *;
+@use '/Users/matteodidone/VS Code Projects/vite-comics/vite-comics/src/styles/partials/_mixins.scss' as *;
+@use '/Users/matteodidone/VS Code Projects/vite-comics/vite-comics/src/styles/partials/_variables.scss' as *;
 
-    header{
+header {
 
-        height: 150px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-        div.logo{
-            padding-left: 320px;;
-        }
-
-        div.logo img{
-            width: 100px;
-            height: 100px;
-        }
-
-        nav.navbar ul{
-            @include flex();
-            font-size: x-large;
-            padding-right: 200px;
-            font-weight: 550;
-        }
-
-        nav.navbar ul li{
-            list-style: none;
-            margin: 0 20px;
-            text-transform: uppercase;
-        }
-
-        nav.navbar ul li .dc-blue{
-            padding-bottom: 50px;
-            border-bottom: 5px solid $dc-blue;
-        }
+    div.logo {
+        padding-left: 320px;
+        ;
     }
 
+    div.logo img {
+        width: 100px;
+        height: 100px;
+    }
+
+    nav.navbar ul {
+        @include flex();
+        font-size: x-large;
+        padding-right: 200px;
+        font-weight: 550;
+    }
+
+    nav.navbar ul li {
+        list-style: none;
+        margin: 0 20px;
+        text-transform: uppercase;
+    }
+
+    nav.navbar ul li .dc-blue {
+        padding-bottom: 50px;
+        border-bottom: 5px solid $dc-blue;
+    }
+}
 </style>
