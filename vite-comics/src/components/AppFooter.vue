@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <footer>
         <h1> App Footer </h1>
-    </div>
+    </footer>
 </template>
 
 <script>
