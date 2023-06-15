@@ -1,6 +1,9 @@
 <template>
-    <div>
+
+    <div class="blue-line">
+
     </div>
+
 </template>
 
 <script>
@@ -20,5 +23,8 @@
 
 
 <style lang="scss">
-
+    .blue-line {
+        background-color: #0282f9;
+        height: 150px;
+    }
 </style>
