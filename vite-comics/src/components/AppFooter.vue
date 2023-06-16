@@ -297,7 +297,7 @@ footer {
 
 .footer-bottom {
     background-color: #303030;
-    height: 180px;
+    height: 100px;
 
     display: flex;
     flex-direction: row;
