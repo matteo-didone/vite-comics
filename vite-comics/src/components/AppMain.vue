@@ -1,6 +1,12 @@
 <template>
     <main>
-        <h1> --> Content goes here &lt-- </h1>
+        <div class="main-top">
+
+        </div>
+
+        <div class="main-bottom">
+
+        </div>
     </main>
 </template>
 
